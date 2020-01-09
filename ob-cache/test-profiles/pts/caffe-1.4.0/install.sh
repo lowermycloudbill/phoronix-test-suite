@@ -23,23 +23,23 @@ fi
 
 cp -f Makefile.config.cpu Makefile.config
 
-if [ -e /usr/lib64/libopenblas.so ]
+if [ -e /usr/lib/x86_64-linux-gnu/libopenblas.so ]
 then
 	sed -i -e "s/BLAS :=.*/BLAS := open/g" Makefile.config
 fi
-if [ -e /usr/lib64/libopencv_core.so.3.1 ]
+if [ -e /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.1 ]
 then
 	sed -i -e "s/# OPENCV_VERSION := 3/OPENCV_VERSION := 3/g" Makefile.config
 fi
-if [ -e /usr/lib64/libopencv_core.so.3.2 ]
+if [ -e /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2 ]
 then
 	sed -i -e "s/# OPENCV_VERSION := 3/OPENCV_VERSION := 3/g" Makefile.config
 fi
-if [ -e /usr/lib64/libopencv_core.so.3.4 ]
+if [ -e /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.4 ]
 then
 	sed -i -e "s/# OPENCV_VERSION := 3/OPENCV_VERSION := 3/g" Makefile.config
 fi
-if [ -e /usr/lib64/libopencv_core.so.4.0 ]
+if [ -e /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.0 ]
 then
 	sed -i -e "s/# OPENCV_VERSION := 3/OPENCV_VERSION := 4/g" Makefile.config
 fi
