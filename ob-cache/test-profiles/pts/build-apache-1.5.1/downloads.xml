@@ -3,10 +3,10 @@
 <PhoronixTestSuite>
   <Downloads>
     <Package>
-      <URL>http://archive.apache.org/dist/httpd/httpd-2.4.7.tar.bz2</URL>
-      <MD5>170d7fb6fe5f28b87d1878020a9ab94e</MD5>
-      <SHA256>64368d8301836815ae237f2b62d909711c896c1bd34573771e0ee5ad808ce71b</SHA256>
-      <FileSize>5004719</FileSize>
+      <URL>http://mirror.reverse.net/pub/apache/httpd/httpd-2.4.41.tar.bz2</URL>
+      <MD5>dfc674f8f454e3bc2d4ccd73ad3b5f1e</MD5>
+      <SHA256>133d48298fe5315ae9366a0ec66282fa4040efa5d566174481077ade7d18ea40</SHA256>
+      <FileSize>7072373</FileSize>
     </Package>
     <Package>
       <URL>http://archive.apache.org/dist/apr/apr-1.5.0.tar.bz2</URL>
