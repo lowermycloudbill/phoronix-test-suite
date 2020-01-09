@@ -12,6 +12,6 @@ mv apr-1.5.0 httpd/srclib/apr
 mv apr-util-1.5.3 httpd/srclib/apr-util
 
 cd httpd/
-./configure --with-included-apr > /dev/null
+./configure > /dev/null
 make clean
 
